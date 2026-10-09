@@ -70,3 +70,4 @@ The "हिन्दी | English" buttons are in the top bar (`partials/header.
 ## Header logos
 Three logos sit on the right of the header (`partials/header.html`): `images/logo/azadi-amrit-mahotsav.png`, `iyc-2025.png`, `cyber-dost.png`.
 To use your own files, save them with these names (PNG with transparent or white background; about 200 px tall is enough). After editing the header run `python build_partials.py`.
+# nepa-demov2
