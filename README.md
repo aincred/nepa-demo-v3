@@ -5,6 +5,11 @@
 |---|---|
 | `index.html` | Home page (slider, programmes, news, about, facilities, gallery) |
 | `about.html` | About NEPA page |
+| `basiccourse.html` | Basic Course page: objectives, joining instructions, syllabus PDFs, Roll of Honour tables |
+| `inservicecourse.html` | Inservice Course page: summary, course calendar PDFs, upcoming courses |
+| `coursecalendar.html` | Course Calendar page: 2026 calendars and earlier years (PDF links) |
+| `faculty-indoor.html`, `faculty-<name>.html` | Indoor Faculty list and one profile page per member (photos: `images/faculty/<name>.jpg`, 5:6 portrait, e.g. 600 x 720) |
+| `faculty-outdoor.html` | Outdoor Faculty (one page, no profiles; photos: `images/faculty/outdoor/<name>.jpg`, 5:6 portrait, e.g. 300 x 360) |
 | `directors.html` | Director page: present Director and former Directors (photo: `images/director/`) |
 | `partials/header.html` | Header: skip link, government bar, logo, main menu, notice ticker |
 | `partials/footer.html` | Footer: links, address, phone, email, map, copyright |
@@ -70,4 +75,3 @@ The "हिन्दी | English" buttons are in the top bar (`partials/header.
 ## Header logos
 Three logos sit on the right of the header (`partials/header.html`): `images/logo/azadi-amrit-mahotsav.png`, `iyc-2025.png`, `cyber-dost.png`.
 To use your own files, save them with these names (PNG with transparent or white background; about 200 px tall is enough). After editing the header run `python build_partials.py`.
-# nepa-demov2
